@@ -14,9 +14,9 @@ s.platform     = :ios, "8.0" #支持的平台和版本号
 
 s.source       = { :git => "https://github.com/lsw891227/MLDevkit.git", :tag => "0.0.1" }   #库的git地址，以及tag号，tag号一般直接用版本号
 
-s.source_files  = 'MLDevkit/MLDevkit.framework' #库的源文件路径
+s.source_files  = 'MLDevkit/MLDevkit/MLDevkit.framework' #库的源文件路径
 
-s.resources = 'MLDevkit/MLDevkit.framework'  #资源文件地址，资源文件最好用bundle管理，注意xib文件也是资源文件，私有库中如果有xib，需要先编译成nib文件，再放进bundle中
+s.resources = 'MLDevkit/MLDevkit/MLDevkit.framework'  #资源文件地址，资源文件最好用bundle管理，注意xib文件也是资源文件，私有库中如果有xib，需要先编译成nib文件，再放进bundle中
 s.requires_arc = true #是否需要ARC支持
 
 #s.dependency "SDWebImage" #如果依赖其他第三方库，在这里添加，可以添加多个

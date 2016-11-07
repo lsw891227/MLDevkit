@@ -88,7 +88,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-s.source_files = “/Users/liushuangwei/MLDevkit/MLKit.framework”
+s.source_files = “/Users/liushuangwei/MLDevkit/MLKit.framework/MLAnimationTool.h”
 
 s.public_header_files  = "MLDevkit", "MLDevkit/MLAnimationTool.h"
 s.public_header_files  = "MLDevkit", "MLDevkit/MLBusinessTool.h"
